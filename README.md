@@ -7,3 +7,12 @@ CSS comes from the Tom theme, which is included in Jekyll Bootstrap.
 I'm not entirely used to these new sections and roles, so if you see
 something I could do better, please send a pull request.
 
+## Usage
+
+In your Jekyll Bootstrap directory, run this command:
+
+    rake theme:install git="https://github.com/IanWhitney/semantic_jekyll.git"
+
+That will install the theme and ask you if you want to switch. If you
+want to customize anything, change the files in
+_includes/themes/semantic_jekyll or assets/themes/semantic_jekyll.
